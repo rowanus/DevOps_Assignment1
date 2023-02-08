@@ -105,14 +105,14 @@ components:
         last_name:
           type: string
           example: Doe
-        gradeReccords:
+        gradeRecords:
           type: array
           items:
             $ref: '#/components/schemas/GradeRecord'
       example:
         student_id: 113
         last_name: Doe
-        gradeReccords:
+        gradeRecords:
         - grade: 9
           subject_name: DevOps
         - grade: 9
