@@ -112,12 +112,12 @@ components:
       example:
         student_id: 113
         last_name: Doe
+        first_name: John
         gradeRecords:
         - grade: 9
           subject_name: DevOps
         - grade: 9
           subject_name: DevOps
-        first_name: John
     GradeRecord:
       required:
       - grade
